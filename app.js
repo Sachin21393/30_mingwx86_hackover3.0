@@ -12,26 +12,8 @@ var twilio=require('twilio');
 
 const axios = require('axios');
 const { application } = require('express');
-const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true,
-    auth: {
-      user: "eventic621@gmail.com",
-      pass: "Eventic21@#",
-    },
-});
 
 
-function exportMail(receiver, subject, html){
-    let info = transporter.sendMail({
-        from: 'eventic update', // sender address
-        to: receiver, // list of receivers
-        subject: "", // Subject line
-        text: "", // plain text body
-        html: html, // html body
-    });
-}
 
 mongoose.connect("mongodb://localhost:27017/codestormDb");
 const userSchema={
