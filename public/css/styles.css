@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+nav{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1.5% !important;
+  padding-bottom: 1.5% !important;
+}
+.form1{
+  border-radius: 10px 0 0 10px !important;
+padding: 2.5% !important;
+}
+.form2{
+  border-radius: 0 !important;
+  margin-left: -2%;
+  padding: 2.5% !important;
+}
+.form2::placeholder{
+  font-weight: bold !important;
+
+}
+.alignItems{
+  display: flex;
+  align-items: center;
+}
+.location-button{
+  background: white !important;
+}
+hr{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+input:active{
+    border: none;
+    outline:none;
+    text-decoration: none;
+}
+
+.dashboard{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.dashboard1{
+  font-family: 'Poppins', sans-serif;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+
+}
+.font14{
+  font-size: 14px ;
+
+}
+.font16{
+  font-size: 16px;
+  font-weight: bold;
+}
+.dashboard2 h3{
+  font-weight: 600;
+}
+.dashboard2 a{
+
+  color: grey !important
+}
+.dashboard2 a:hover{
+
+  color: darkgrey !important
+}
+.status{
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.grey16{
+  font-size: 16;
+  color: grey;
+}
+.grey16:hover{
+  color: darkgrey;
+}
+.bookbtn{
+  padding: 2%;
+  margin-top: 2%;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+footer{
+  background: #CA064C ;
+  color: white ;
+  padding: 1.5%;
+  margin-top: 3%;
+}
